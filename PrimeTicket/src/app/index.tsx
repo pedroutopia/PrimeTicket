@@ -4,8 +4,8 @@ export default function Home() {
 
     return (
 
-        <View style={{ backgroundColor: "beige", flex: 1}}>
-            <Text>Iníciando...</Text>
+        <View className="flex-1 bg-green-500 items-center justify-center">
+            <Text className="text-white">Iníciando...</Text>
         </View>
     )
 }
